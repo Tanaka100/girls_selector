@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// ------------------------------
+// レスポンシブ
+// ------------------------------
+
+$sp: "max-width: 768px";
+$pc: "min-width: 768px";
+$max-width: 900px;
+
+// ------------------------------
+// IMPORTS
+// ------------------------------
+
+@import "base/basic";
+@import "common/global";
+@import "common/footer";

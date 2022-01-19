@@ -1,0 +1,38 @@
+// ------------------------------
+// フッター
+// ------------------------------
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  padding: 20px 0;
+  background: #0000ff;
+  z-index: 10;
+  font-size: 12px;
+  opacity: 0.8;
+  
+  @media ($sp) {
+    padding: 25px 0;
+    font-size: 10px;
+
+    .container {
+      padding: 0;
+    }
+  }
+}
+
+.button {
+  margin: 0 15px;
+  padding: 20px 30px;
+  background: white;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  border-radius: 20px 20px 20px 20px;
+  pointer-events: stroke;
+}

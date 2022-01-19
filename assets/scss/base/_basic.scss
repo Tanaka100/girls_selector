@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  padding-bottom: 60px;
+  
+  @media ($sp) {
+    padding-bottom: 75px;
+  }
+}
